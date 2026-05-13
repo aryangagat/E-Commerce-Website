@@ -8,7 +8,7 @@ const items = [
         current_price: 699,
         discount_percentage: 65,
          return_period: 14,
-        delivery_date: '01 May 2026',
+        delivery_date: '28 May 2026',
         rating: {
             stars: 4.5,
             count: 1400,
@@ -23,7 +23,7 @@ const items = [
         current_price: 294,
         discount_percentage: 69,
          return_period: 14,
-        delivery_date: '01 May 2026',
+        delivery_date: '28 May 2026',
         rating: {
             stars: 3.5,
             count: 1100,
@@ -40,7 +40,7 @@ const items = [
         current_price: 349,
         discount_percentage: 65,
         return_period: 14,
-        delivery_date: '01 May 2026',
+        delivery_date: '28 May 2026',
         rating: {
             stars: 4.7,
             count: 1900,
@@ -56,7 +56,7 @@ const items = [
         current_price: 549,
         discount_percentage: 54,
         return_period: 14,
-        delivery_date: '01 May 2026',
+        delivery_date: '28 May 2026',
         rating: {
             stars: 4.7,
             count: 1400,
@@ -71,7 +71,7 @@ const items = [
         current_price: 294,
         discount_percentage: 69,
         return_period: 14,
-        delivery_date: '01 May 2026',
+        delivery_date: '28 May 2026',
         rating: {
             stars: 3.5,
             count: 1100,
@@ -87,7 +87,7 @@ const items = [
         current_price: 599,
         discount_percentage: 55,
         return_period: 14,
-        delivery_date: '01 May 2026',
+        delivery_date: '28 May 2026',
         rating: {
             stars: 3.9,
             count: 1500,
@@ -103,7 +103,7 @@ const items = [
         current_price: 570,
         discount_percentage: 62,
         return_period: 14,
-        delivery_date: '01 May 2026',
+        delivery_date: '28 May 2026',
         rating: {
             stars: 4.5,
             count: 1600,
@@ -119,7 +119,7 @@ const items = [
         current_price: 699,
         discount_percentage: 22,
         return_period: 14,
-        delivery_date: '01 May 2026',
+        delivery_date: '28 May 2026',
         rating: {
             stars: 4.1,
             count: 1600,
@@ -134,7 +134,7 @@ const items = [
        current_price: 750,
         discount_percentage: 50,
         return_period: 14,
-        delivery_date: '01 May 2026',
+        delivery_date: '28 May 2026',
         rating: {
            stars: 4.3,
            count: 1400,
@@ -149,7 +149,7 @@ const items = [
         current_price: 1779,
         discount_percentage: 11,
         return_period: 14,
-        delivery_date: '01 May 2026',
+        delivery_date: '28 May 2026',
         rating: {
             stars: 3.9,
             count: 1800,
