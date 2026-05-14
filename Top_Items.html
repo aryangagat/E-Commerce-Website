@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Shopping Website</title>
+    <title>Top Section</title>
     <link rel="stylesheet" href="Top_Items.css" />
     <link
       rel="stylesheet"
@@ -11,27 +11,29 @@
   <body>
     <header>
       <div class="logo-container">
-        <a href="Shopping-website.html"
+        <a href="index.html"
           ><img
             class="shopping-home"
             src="myntra-image/myntra_logo.webp"
             alt="shopping"
         /></a>
       </div>
-      <nav class="nav-bar">
+       <nav class="nav-bar">
         <a href="men.html">Men</a>
-        <a href="#">Women</a>
-        <a href="#">Kids</a>
-        <a href="#">Home & Living</a>
-        <a href="#">Beauty</a>
-        <a href="#">Studio <sup>New</sup></a>
+        <a href="women.html">Women</a>
+        <a href="kids.html">Kids</a>
+        <a href="home.html">Home & Living</a>
+        <a href="beauty.html">Beauty</a>
+        <a href="studio.html">Studio <sup>New</sup></a>
       </nav>
       <div class="search-bar">
         <span class="material-symbols-outlined search-icon">search</span>
-        <input
-          class="search-input"
-          placeholder="Search for products, brands and more"
-        />
+       <input
+class="search-input"
+id="search-input"
+placeholder="Search for products, brands and more"
+onkeyup="searchProducts()"
+/>
       </div>
       <div class="action-bar">
         <div class="action-container">
@@ -100,9 +102,10 @@
       </div>
       <hr />
 
-      <div class="copyright">© 2023 www.myntra.com. All rights reserved.</div>
+      <div class="copyright">© 2026 www.myntra.com. All rights reserved.</div>
     </footer>
     <script src="items.js"></script>
     <script src="Top_items.js"></script>
+    
   </body>
 </html>
