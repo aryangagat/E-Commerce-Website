@@ -50,15 +50,35 @@ function displayBagSummary() {
 }
 
 function loadBagItemObjects() {
-  console.log(bagItems);
+
+ let allProducts = [
+
+  ...items,
+
+  ...menItems,
+
+  ...womenItems,
+
+  ...kidsItems,
+
+  ...homeItems,
+
+  ...beautyItems,
+
+  ...studioItems
+
+];
+
   bagItemObjects = bagItems.map(itemId => {
-    for (let i = 0; i < items.length; i++) {
-      if (itemId == items[i].id) {
-        return items[i];
+
+    for (let i = 0; i < allProducts.length; i++) {
+
+      if (itemId == allProducts[i].id) {
+
+        return allProducts[i];
       }
     }
   });
-  console.log(bagItemObjects);
 }
 
 function displayBagItems() {
@@ -82,7 +102,7 @@ function removeFromBag(itemId) {
 function generateItemHTML(item) {
   return `<div class="bag-item-container">
     <div class="item-left-part">
-      <img class="bag-item-img" src=" ${item.image}">
+      <img class="bag-item-img" src="${item.image}">
     </div>
     <div class="item-right-part">
       <div class="company">${item.company}</div>
@@ -104,3 +124,4 @@ function generateItemHTML(item) {
     <div class="remove-from-cart" onclick="removeFromBag(${item.id})">X</div>
   </div>`;
 }
+
